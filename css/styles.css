@@ -156,6 +156,7 @@ header nav ul li a {
     flex-direction: row;
     justify-content: space-between; /* Adjust spacing between boxes */
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .work-box {
