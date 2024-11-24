@@ -214,13 +214,11 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 .inner-container {
-    width: 50%; /* Set a width for the text container */
+    width: 50%;
     text-align: justify;
-    padding: 1em; /* Optional: padding for spacing */
+    padding: 1em;
     font-family: 'Georgia', serif;
     font-size: 1.5em;
     color: #333;
@@ -237,24 +235,25 @@ header nav ul li a {
 }
 
 .resbox {
+    display: flex;
+    align-items: center;
     border-radius: 10px;
     box-shadow: -5px -5px 10px rgb(140, 138, 138);
     margin-bottom: 25px;
     margin-left: 125px;
     margin-right: 125px;
     padding: 10px;
+    overflow-x: auto;
 }
 
 .resume {
-    position: relative;
-    margin-left: 210px;
-    margin-top: 10px;
+    flex-grow: 1;
+    padding: 10px;
 }
 
 .reslink{
-    position: absolute; 
-    top: 10px; 
-    right: 10px;
+    position:sticky;
+    margin-left: 25px;
 }
 
 .reslink i{
@@ -291,7 +290,6 @@ header nav ul li a {
 
 #photo {
     float: left;
-    border-radius: 10px;
     height: 250px;
     border-radius: 50%;
 }
