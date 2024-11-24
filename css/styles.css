@@ -236,12 +236,12 @@ header nav ul li a {
 
 .resbox {
     display: flex;
+    width: 80%;
+    align-self: center;
     align-items: center;
     border-radius: 10px;
     box-shadow: -5px -5px 10px rgb(140, 138, 138);
     margin-bottom: 25px;
-    margin-left: 125px;
-    margin-right: 125px;
     padding: 10px;
     overflow-x: auto;
 }
@@ -253,7 +253,7 @@ header nav ul li a {
 
 .reslink{
     position:sticky;
-    margin-left: 25px;
+    margin-left: 5px;
 }
 
 .reslink i{
