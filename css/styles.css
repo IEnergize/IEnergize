@@ -217,14 +217,14 @@ header nav ul li a {
     align-items: center;
 }
 .inner-container {
-    width: 50%;
+    width: 80%;
+    max-width: 800px;
     text-align: justify;
     padding: 1em;
     font-family: 'Georgia', serif;
     font-size: 1.5em;
     color: #333;
     line-height: 1.6;
-    max-width: 800px;
     border: 2px solid #333;
     padding: 20px;
     background-color: #fff;
@@ -238,11 +238,12 @@ header nav ul li a {
 .resbox {
     display: flex;
     width: 80%;
+    max-width: 1200px;
     align-self: center;
     align-items: center;
     border-radius: 10px;
     box-shadow: -5px -5px 10px rgb(140, 138, 138);
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     padding: 10px;
     overflow-x: auto;
 }
@@ -298,8 +299,8 @@ header nav ul li a {
 /* -----------------------------------  about end */
 /*---------------------------------Contact Us  */
 .container {
-    width: 100%;
-    max-width: 50%;
+    width: 90%;
+    max-width: 800px;
     margin: 10px auto;
     padding: 20px;
     background-color: #fff;
